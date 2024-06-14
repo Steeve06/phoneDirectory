@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Sidebar*/
+#sidebar{
+    background-color: rgb(106, 201, 106);
+    height: 100vh;
+    padding-top: 10%;
+}
+
+.oapi{
+    font-size: 6em;
+    color: rgb(220, 230, 134);
+    padding-bottom: 30px;
+}
+
+.annuaire{
+    font-size: 1.5em;
+    color: rgb(185, 236, 185);
+    font-weight: bolder;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+/*body*/
+#body{
+    padding-top: 10%;
+}
+
+#body button{
+    background-color: rgb(106, 201, 106);
+    border: transparent 1px;
+    border-radius: 100px;
+    float: right;
+    margin-top: 25px;
+}
+
+#body button:hover{
+    opacity: 0.7;
+    transition: 0.7s;
+}
+
+#body button i{
+    padding: 10px 5px;
+    font-size: 1.5em;
+    color: rgb(220, 230, 134);
+}
+
+.admin{
+    background-color: rgb(106, 201, 106);
+    border: transparent 1px;
+    border-radius: 100px;
+    float: right;
+    margin: 15px;
+    transform: translate(120px,60px);
+}
+
+.admin:hover{
+    opacity: 0.7;
+    transition: 0.7s;
+}
+
+.admin i{
+    padding: 17px 15px;
+    color: rgb(220, 230, 134);
+}
+
+img{
+    margin: -50px 0 25px 0;  
+}
+
+.form-text{
+    max-width: 800px;
+}
+
+.error{
+    color: red;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+}
+

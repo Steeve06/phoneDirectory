@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Sidebar*/
+#sidebar{
+    height: 100vh;
+    overflow: auto;
+}
+
+.Titre{
+    color: rgb(106, 201, 106);
+    opacity: .4;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+.text-light{
+    text-decoration: none;
+    border: 1px transparent;
+    border-radius: 5px;
+    padding: 9px 15px;
+    background-color: rgb(106, 201, 106);
+    width: 200px;
+    letter-spacing: 0;
+}
+
+.text-light:hover{
+    opacity: 0.7;
+    transition: 0.7s;
+}
+
+.Titre p{
+    margin-top: 100px;
+}
+
+/*Body*/
+/*First part*/
+.text{
+    margin: 100px 30px;
+}
+
+/*second part*/
+.infos{
+    margin: 70px 30px;
+}
+
+.img-infos{
+    height: 300px;
+    width: 300px;
+}
+
+.txt-infos{
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.txt-infos p{
+    margin: -5px;
+}
+
+.txt-infos span{
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+.btnclose{
+    float: right;
+    color: rgb(220, 230, 134);
+    background-color: rgb(106, 201, 106);
+    border: solid 1px rgb(106, 201, 106);
+    margin: 25px 25px 0;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.btnclose:hover{
+    opacity: .7;
+    color: wheat;
+}
+
+.txt2{
+    margin-top: 25px;
+}

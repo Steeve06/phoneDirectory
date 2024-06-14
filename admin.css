@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+
+}
+
+/*Button Add*/
+.btn_add{
+    float: right;
+    border: solid 1px rgb(106, 201, 106);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(106, 201, 106);
+    padding: 10px;
+}
+
+.btn_add:hover{
+    border: transparent;
+    background-color: rgb(106, 201, 106);
+    color: white;
+    transition: 0.7s;
+}
+
+
+/*Table*/
+.div_tab{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table{
+    border-collapse: collapse;
+    color: #404040;
+}
+
+.table th{
+    border-bottom: 3px solid rgb(106, 201, 106);
+    padding: 5px 30px;
+}
+
+.table td{
+    padding: 7px 30px;
+    border-bottom: solid 1px rgb(197, 248, 197);
+    max-width: 25px;
+    overflow-x: hidden;
+}
+
+.btn1{
+    border: transparent 1px;
+    border-radius: 3px;
+    background-color: rgb(106, 201, 106);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.btn1:hover{
+    opacity: 0.5;
+    transition: 0.7s;
+}
+
+.btn2{
+    border: transparent 1px;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.btn2:hover{
+    opacity: 0.5;
+    transition: 0.7s;
+}

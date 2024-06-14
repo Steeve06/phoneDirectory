@@ -1,0 +1,91 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* style for body */
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* style for form */
+form{
+    width: 500px;
+    height: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: rgb(92, 141, 64);
+    border-radius: 15px;
+}
+/* style for input */
+input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+
+
+/* style for label */
+label{
+    color: rgb(8, 8, 8);
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* style for button */
+#body button{
+    background-color: rgb(106, 201, 106);
+    border: transparent 1px;
+    border-radius: 100px;
+    float: right;
+    margin-top: 25px;
+}
+
+#body button:hover{
+    opacity: 0.7;
+    transition: 0.7s;
+}
+
+#body button i{
+    padding: 10px 5px;
+    font-size: 1.5em;
+    color: rgb(220, 230, 134);
+}
+
+/* style for error display message */
+.error{
+    background: #F2DEDE;
+    color: #a01311;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+a{
+    float: bottom;
+    padding: 10px 15px;
+    color: #000;
+    border: none;
+    text-decoration: none;
+}
+.image{
+    display: block;
+    width: 150px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
